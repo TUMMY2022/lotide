@@ -21,4 +21,4 @@ const assertEqual = function(actual, expected) {
     console.log(`🛑🛑🛑 The following: Assertion Failed: ${actual} !== ${expected}`);
 };
 
-assertEqual(eqArrays([1, 2, 3], [1, 2, 3]), true);
+assertEqual(eqArrays([1, 2, 3], [1, "2", 3]), true);
