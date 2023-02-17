@@ -3,11 +3,11 @@ const eqArrays = require('../eqArrays');
 // TEST CODE
 describe("#eqArrays", () => {
   it("should returns true for ([1, 2, 3], [1, 2, 3])", () => {
-    assert.strictEqual(eqArrays([1, 2, 3], [1, 2, 3]), true);
+    assert.deepEqual(eqArrays([1, 2, 3], [1, 2, 3]), true);
   });
 
   it('should returns false for ([1, 2, 3], [1, "2", 3])', () => {
-    assert.strictEqual(eqArrays([1, 2, 3], [1, "2", 3]), false); 
+    assert.deepEqual(eqArrays([1, 2, 3], [1, "2", 3]), false); 
 
   });
 
