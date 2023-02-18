@@ -16,7 +16,7 @@ const middle = require('./middle');
 const tail   = require('./tail');
 const takeUntil = require('./takeUntil');
 const without = ('./without');
-
+/** 
 module.exports = {
   assertArraysEqual: assertArraysEqual,
   assertEqual: assertEqual,
@@ -36,6 +36,28 @@ module.exports = {
   takeUntil: takeUntil,
   without: without
 };
+*/
+//Object Shorthand in ES6
+module.exports = {
+  assertArraysEqual,
+  assertEqual,
+  assertObjectsEqual,
+  countLetters,
+  countOnly,
+  eqArrays,
+  eqObjects,
+  findKey,
+  findKeyByValue,
+  flatten,
+  head,
+  letterPositions,
+  map,
+  middle,
+  tail,
+  takeUntil,
+  without
+};
+
 
 
 
